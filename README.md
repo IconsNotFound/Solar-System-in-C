@@ -58,6 +58,18 @@ gcc main.c -o solar_system_in_c -lglfw -lGLEW -lGL -lGLU -lm -ldl -lX11 -lpthrea
 ./solar_system_in_c
 ```
 
+Or download the ZIP directly with `wget`:
+
+```bash
+wget https://github.com/IconsNotFound/Solar-System-in-C/archive/refs/heads/main.zip -O Solar-System-in-C.zip &&
+unzip -q Solar-System-in-C.zip &&
+cd Solar-System-in-C-main &&
+sudo apt update &&
+sudo apt install -y build-essential cmake git libglu1-mesa-dev libglew-dev libglfw3-dev libxi-dev &&
+gcc main.c -o solar_system_in_c -lglfw -lGLEW -lGL -lGLU -lm -ldl -lX11 -lpthread -lXrandr -lXi &&
+./solar_system_in_c
+```
+
 ## Notes
 
 - The simulation prioritizes visual appeal over scientific accuracy.
