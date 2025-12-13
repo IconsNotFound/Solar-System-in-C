@@ -2,6 +2,8 @@
 
 A simple OpenGL simulation of the solar system written in C. This project visualizes the Sun and planets with approximate relative sizes, orbits, and colors. Please note that the colors and motion are **not 100% scientifically accurate**, but provide a visually appealing representation.
 
+![Demo](demo.gif)
+
 ## Features
 
 - Renders Sun and 9 planets (including Pluto) with textured spheres.
